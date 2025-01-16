@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AwesomeAnimation-AwesomeAnimationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeAnimation-AwesomeAnimationTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1499F22BFD644250A4C54838 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F597CC20D454AD497A2C538 /* Montserrat-Bold.ttf */; };
+		15CD5650EFEC487B8DDDD59C /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B3C74A1FD74C4CBFC9B244 /* Montserrat-Regular.ttf */; };
+		D8715E25D7FF446FB889F1A5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 291430C4B3C749F9BE2276BC /* Montserrat-SemiBold.ttf */; };
+		5D0B6D277FF94A51821C91F4 /* SFPRO-MEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E4E23BFE13A64470B9585DB9 /* SFPRO-MEDIUM.OTF */; };
+		A5ECF59F9D2C45BA962D0C03 /* SFPRO-REGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 20A5A2C42A644E3496BC3BCA /* SFPRO-REGULAR.OTF */; };
+		7061CC52379148C7984BB182 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B42969E073F7475B92280B77 /* background.jpg */; };
+		D3FC765BF7844C3D9CA22716 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = A1255A5836CD4948BA4FF85C /* Login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeAnimation/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AwesomeAnimation-AwesomeAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeAnimation-AwesomeAnimationTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeAnimation-AwesomeAnimationTests/Pods-AwesomeAnimation-AwesomeAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6F597CC20D454AD497A2C538 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3B3C74A1FD74C4CBFC9B244 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		291430C4B3C749F9BE2276BC /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4E23BFE13A64470B9585DB9 /* SFPRO-MEDIUM.OTF */ = {isa = PBXFileReference; name = "SFPRO-MEDIUM.OTF"; path = "../assets/fonts/SFPRO-MEDIUM.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20A5A2C42A644E3496BC3BCA /* SFPRO-REGULAR.OTF */ = {isa = PBXFileReference; name = "SFPRO-REGULAR.OTF"; path = "../assets/fonts/SFPRO-REGULAR.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B42969E073F7475B92280B77 /* background.jpg */ = {isa = PBXFileReference; name = "background.jpg"; path = "../assets/image/background.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A1255A5836CD4948BA4FF85C /* Login.png */ = {isa = PBXFileReference; name = "Login.png"; path = "../assets/image/Login.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7AB4B746A7FB48B9BF435523 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +164,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		7AB4B746A7FB48B9BF435523 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				6F597CC20D454AD497A2C538 /* Montserrat-Bold.ttf */,
+				A3B3C74A1FD74C4CBFC9B244 /* Montserrat-Regular.ttf */,
+				291430C4B3C749F9BE2276BC /* Montserrat-SemiBold.ttf */,
+				E4E23BFE13A64470B9585DB9 /* SFPRO-MEDIUM.OTF */,
+				20A5A2C42A644E3496BC3BCA /* SFPRO-REGULAR.OTF */,
+				B42969E073F7475B92280B77 /* background.jpg */,
+				A1255A5836CD4948BA4FF85C /* Login.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +275,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1499F22BFD644250A4C54838 /* Montserrat-Bold.ttf in Resources */,
+				15CD5650EFEC487B8DDDD59C /* Montserrat-Regular.ttf in Resources */,
+				D8715E25D7FF446FB889F1A5 /* Montserrat-SemiBold.ttf in Resources */,
+				5D0B6D277FF94A51821C91F4 /* SFPRO-MEDIUM.OTF in Resources */,
+				A5ECF59F9D2C45BA962D0C03 /* SFPRO-REGULAR.OTF in Resources */,
+				7061CC52379148C7984BB182 /* background.jpg in Resources */,
+				D3FC765BF7844C3D9CA22716 /* Login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,14 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import "./global.css"
-import Main from './application/screen/Main'
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import './global.css';
+import Main from './application/screen/Main';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 const App = () => {
   return (
-   <Main/>
-  )
-}
+    <GestureHandlerRootView>
+      <Main />
+    </GestureHandlerRootView>
+  );
+};
 
-export default App
+export default App;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
